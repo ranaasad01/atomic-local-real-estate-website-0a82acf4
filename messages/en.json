@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "viewListings": "View Listings"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "propertyTypes": "Property Types",
+    "contactUs": "Contact Us",
+    "homesForSale": "Homes for Sale",
+    "homesForRent": "Homes for Rent",
+    "condos": "Condos",
+    "townhouses": "Townhouses",
+    "luxuryEstates": "Luxury Estates",
+    "copyright": "© {year} {brand}. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "home": {
+    "hero": {
+      "badge": "Maplewood's Most Trusted Realty",
+      "title": "Find Your Place to Call Home",
+      "subtitle": "Browse hundreds of curated listings across Maplewood, Harborside, and Riverside. Expert agents, transparent process, exceptional results.",
+      "searchPlaceholder": "Search by neighborhood, address, or ZIP",
+      "searchButton": "Search",
+      "forSale": "For Sale",
+      "forRent": "For Rent",
+      "statsHomes": "Homes Sold",
+      "statsAgents": "Expert Agents",
+      "statsSatisfaction": "Client Satisfaction"
+    },
+    "featured": {
+      "badge": "Featured Properties",
+      "title": "Handpicked Listings",
+      "subtitle": "Our agents have curated these exceptional properties across the area's most sought-after neighborhoods.",
+      "viewAll": "View All Listings",
+      "viewDetails": "View Details"
+    },
+    "services": {
+      "badge": "What We Offer",
+      "title": "Full-Service Real Estate",
+      "subtitle": "From your first search to closing day, Harborview Realty is with you at every step.",
+      "buyTitle": "Buying",
+      "buyDesc": "We match you with properties that fit your lifestyle and budget, then guide you through every offer, inspection, and closing.",
+      "sellTitle": "Selling",
+      "sellDesc": "Professional staging advice, strategic pricing, and a network of qualified buyers to get you the best possible outcome.",
+      "rentTitle": "Renting",
+      "rentDesc": "Curated rental listings with flexible terms. We handle tenant screening, lease prep, and move-in coordination.",
+      "investTitle": "Investing",
+      "investDesc": "Market analysis, cap rate calculations, and off-market opportunities for investors seeking strong returns."
+    },
+    "agents": {
+      "badge": "Meet the Team",
+      "title": "Your Local Experts",
+      "subtitle": "Our agents live and work in the communities they serve, bringing genuine local knowledge to every transaction.",
+      "listings": "Active Listings",
+      "sold": "Homes Sold",
+      "contact": "Contact Agent"
+    },
+    "testimonials": {
+      "badge": "Client Stories",
+      "title": "What Our Clients Say",
+      "subtitle": "Real experiences from real people who found their homes with Harborview Realty."
+    },
+    "newsletter": {
+      "badge": "Stay Informed",
+      "title": "Get New Listings First",
+      "subtitle": "Join over 2,400 subscribers who receive curated property alerts, market updates, and neighborhood guides every week.",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "disclaimer": "No spam, ever. Unsubscribe anytime."
+    },
+    "cta": {
+      "title": "Ready to Find Your Next Home?",
+      "subtitle": "Schedule a free consultation with one of our expert agents today.",
+      "button": "Talk to an Agent",
+      "secondary": "Browse All Listings"
+    }
+  },
+  "listings": {
+    "title": "Property Listings",
+    "subtitle": "Browse all available homes, condos, and rentals across the Maplewood area.",
+    "searchPlaceholder": "Search by address or neighborhood",
+    "filterType": "Property Type",
+    "filterStatus": "For Sale / Rent",
+    "filterBeds": "Bedrooms",
+    "filterPrice": "Price Range",
+    "allTypes": "All Types",
+    "allStatus": "All",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "anyBeds": "Any",
+    "results": "{count} Properties Found",
+    "noResults": "No properties match your filters.",
+    "viewDetails": "View Details",
+    "beds": "bd",
+    "baths": "ba",
+    "sqft": "sqft",
+    "perMonth": "/mo"
+  },
+  "property": {
+    "beds": "Bedrooms",
+    "baths": "Bathrooms",
+    "sqft": "Square Feet",
+    "yearBuilt": "Year Built",
+    "garage": "Garage",
+    "lotSize": "Lot Size",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "perMonth": "/mo",
+    "description": "About This Property",
+    "details": "Property Details",
+    "location": "Location",
+    "agent": "Listed By",
+    "inquire": "Request a Showing",
+    "inquireSubtitle": "Fill out the form and an agent will be in touch within 24 hours.",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone Number",
+    "formMessage": "Message",
+    "formMessageDefault": "I'm interested in this property and would like to schedule a showing.",
+    "formSubmit": "Send Inquiry",
+    "formSuccess": "Your inquiry has been sent. An agent will contact you shortly.",
+    "backToListings": "Back to Listings"
+  },
+  "about": {
+    "hero": {
+      "badge": "About Harborview Realty",
+      "title": "Built on Trust, Driven by Results",
+      "subtitle": "Since 2009, we have helped thousands of families buy, sell, and rent homes across Maplewood and the surrounding communities."
+    },
+    "story": {
+      "title": "Our Story",
+      "body1": "Harborview Realty was founded with a simple belief: real estate should feel personal. We started as a small team of three agents who knew every street, every school district, and every hidden gem in Maplewood.",
+      "body2": "Today, we are a full-service agency with over 20 agents, but our commitment to the community has never changed. Every client receives the same attentive, honest service that built our reputation."
+    },
+    "values": {
+      "badge": "Our Values",
+      "title": "What Sets Us Apart",
+      "integrityTitle": "Integrity First",
+      "integrityDesc": "We give you honest advice, even when it is not what you want to hear. Your long-term trust matters more than any single transaction.",
+      "localTitle": "Genuinely Local",
+      "localDesc": "Our agents live in the neighborhoods they serve. That local knowledge translates into better deals and smarter decisions for you.",
+      "resultsTitle": "Results Focused",
+      "resultsDesc": "We measure success by your satisfaction. Our track record of 98% client satisfaction speaks for itself.",
+      "careTitle": "Personal Care",
+      "careDesc": "You are never just a file number. We take time to understand your goals and tailor our approach to your unique situation."
+    },
+    "stats": {
+      "sold": "Homes Sold",
+      "years": "Years in Business",
+      "agents": "Expert Agents",
+      "satisfaction": "Client Satisfaction"
+    },
+    "team": {
+      "badge": "Our Team",
+      "title": "The People Behind the Results",
+      "subtitle": "Experienced, dedicated, and genuinely passionate about helping you find the right home.",
+      "listings": "Active Listings",
+      "sold": "Homes Sold"
+    },
+    "cta": {
+      "title": "Let's Find Your Next Home Together",
+      "subtitle": "Reach out today for a free, no-obligation consultation with one of our expert agents.",
+      "button": "Get in Touch",
+      "secondary": "View Listings"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Get in Touch",
+      "title": "We'd Love to Hear From You",
+      "subtitle": "Whether you are buying, selling, or just exploring, our team is ready to help."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you! We will be in touch within one business day.",
+      "subjectOptions": {
+        "buying": "I'm looking to buy",
+        "selling": "I'm looking to sell",
+        "renting": "I'm looking to rent",
+        "general": "General inquiry"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "hours": "Office Hours",
+      "hoursValue": "Mon–Fri: 9am–6pm, Sat: 10am–4pm",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "agents": {
+      "title": "Speak Directly with an Agent",
+      "subtitle": "Prefer to connect with a specific agent? Reach out to any of our team members directly."
+    }
+  }
+}

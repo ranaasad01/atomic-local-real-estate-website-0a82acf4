@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "viewListings": "Ver Listados"
+  },
+  "footer": {
+    "quickLinks": "Enlaces Rápidos",
+    "propertyTypes": "Tipos de Propiedades",
+    "contactUs": "Contáctenos",
+    "homesForSale": "Casas en Venta",
+    "homesForRent": "Casas en Renta",
+    "condos": "Condominios",
+    "townhouses": "Casas de Pueblo",
+    "luxuryEstates": "Propiedades de Lujo",
+    "copyright": "© {year} {brand}. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "home": {
+    "hero": {
+      "badge": "La Inmobiliaria Más Confiable de Maplewood",
+      "title": "Encuentra Tu Lugar para Llamar Hogar",
+      "subtitle": "Explora cientos de listados seleccionados en Maplewood, Harborside y Riverside. Agentes expertos, proceso transparente, resultados excepcionales.",
+      "searchPlaceholder": "Busca por vecindario, dirección o código postal",
+      "searchButton": "Buscar",
+      "forSale": "En Venta",
+      "forRent": "En Renta",
+      "statsHomes": "Casas Vendidas",
+      "statsAgents": "Agentes Expertos",
+      "statsSatisfaction": "Satisfacción del Cliente"
+    },
+    "featured": {
+      "badge": "Propiedades Destacadas",
+      "title": "Listados Seleccionados",
+      "subtitle": "Nuestros agentes han seleccionado estas propiedades excepcionales en los vecindarios más buscados del área.",
+      "viewAll": "Ver Todos los Listados",
+      "viewDetails": "Ver Detalles"
+    },
+    "services": {
+      "badge": "Lo Que Ofrecemos",
+      "title": "Bienes Raíces de Servicio Completo",
+      "subtitle": "Desde tu primera búsqueda hasta el día del cierre, Harborview Realty está contigo en cada paso.",
+      "buyTitle": "Comprar",
+      "buyDesc": "Te conectamos con propiedades que se ajusten a tu estilo de vida y presupuesto, y te guiamos en cada oferta, inspección y cierre.",
+      "sellTitle": "Vender",
+      "sellDesc": "Asesoramiento profesional de preparación, fijación estratégica de precios y una red de compradores calificados para obtener el mejor resultado posible.",
+      "rentTitle": "Rentar",
+      "rentDesc": "Listados de renta seleccionados con términos flexibles. Nos encargamos de la evaluación de inquilinos, preparación de contrato y coordinación de mudanza.",
+      "investTitle": "Invertir",
+      "investDesc": "Análisis de mercado, cálculos de tasa de capitalización y oportunidades fuera del mercado para inversores que buscan rendimientos sólidos."
+    },
+    "agents": {
+      "badge": "Conoce al Equipo",
+      "title": "Tus Expertos Locales",
+      "subtitle": "Nuestros agentes viven y trabajan en las comunidades a las que sirven, aportando conocimiento local genuino a cada transacción.",
+      "listings": "Listados Activos",
+      "sold": "Casas Vendidas",
+      "contact": "Contactar Agente"
+    },
+    "testimonials": {
+      "badge": "Historias de Clientes",
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "subtitle": "Experiencias reales de personas que encontraron sus hogares con Harborview Realty."
+    },
+    "newsletter": {
+      "badge": "Manténgase Informado",
+      "title": "Reciba Nuevos Listados Primero",
+      "subtitle": "Únase a más de 2,400 suscriptores que reciben alertas de propiedades seleccionadas, actualizaciones del mercado y guías de vecindarios cada semana.",
+      "placeholder": "Su dirección de correo electrónico",
+      "button": "Suscribirse",
+      "disclaimer": "Sin spam, nunca. Desuscribirse en cualquier momento."
+    },
+    "cta": {
+      "title": "¿Listo para Encontrar Su Próximo Hogar?",
+      "subtitle": "Programe una consulta gratuita con uno de nuestros agentes expertos hoy.",
+      "button": "Hablar con un Agente",
+      "secondary": "Ver Todos los Listados"
+    }
+  },
+  "listings": {
+    "title": "Listados de Propiedades",
+    "subtitle": "Explore todas las casas, condominios y alquileres disponibles en el área de Maplewood.",
+    "searchPlaceholder": "Buscar por dirección o vecindario",
+    "filterType": "Tipo de Propiedad",
+    "filterStatus": "En Venta / Alquiler",
+    "filterBeds": "Dormitorios",
+    "filterPrice": "Rango de Precio",
+    "allTypes": "Todos los Tipos",
+    "allStatus": "Todos",
+    "forSale": "En Venta",
+    "forRent": "En Alquiler",
+    "anyBeds": "Cualquiera",
+    "results": "{count} Propiedades Encontradas",
+    "noResults": "Ninguna propiedad coincide con sus filtros.",
+    "viewDetails": "Ver Detalles",
+    "beds": "dorm",
+    "baths": "baños",
+    "sqft": "pies²",
+    "perMonth": "/mes"
+  },
+  "property": {
+    "beds": "Dormitorios",
+    "baths": "Baños",
+    "sqft": "Pies Cuadrados",
+    "yearBuilt": "Año de Construcción",
+    "garage": "Garaje",
+    "lotSize": "Tamaño del Lote",
+    "forSale": "En Venta",
+    "forRent": "En Alquiler",
+    "perMonth": "/mes",
+    "description": "Acerca de Esta Propiedad",
+    "details": "Detalles de la Propiedad",
+    "location": "Ubicación",
+    "agent": "Listado por",
+    "inquire": "Solicitar una Visita",
+    "inquireSubtitle": "Complete el formulario y un agente se comunicará con usted dentro de 24 horas.",
+    "formName": "Nombre Completo",
+    "formEmail": "Correo Electrónico",
+    "formPhone": "Número de Teléfono",
+    "formMessage": "Mensaje",
+    "formMessageDefault": "Me interesa esta propiedad y me gustaría programar una visita.",
+    "formSubmit": "Enviar Consulta",
+    "formSuccess": "Su consulta ha sido enviada. Un agente se comunicará con usted pronto.",
+    "backToListings": "Volver a Listados"
+  },
+  "about": {
+    "hero": {
+      "badge": "Acerca de Harborview Realty",
+      "title": "Construido en Confianza, Impulsado por Resultados",
+      "subtitle": "Desde 2009, hemos ayudado a miles de familias a comprar, vender y alquilar viviendas en Maplewood y las comunidades circundantes."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "body1": "Harborview Realty fue fundada con una creencia simple: los bienes raíces deben sentirse personales. Comenzamos como un pequeño equipo de tres agentes que conocían cada calle, cada distrito escolar y cada joya oculta en Maplewood.",
+      "body2": "Hoy somos una agencia de servicio completo con más de 20 agentes, pero nuestro compromiso con la comunidad nunca ha cambiado. Cada cliente recibe el mismo servicio atento y honesto que construyó nuestra reputación."
+    },
+    "values": {
+      "badge": "Nuestros Valores",
+      "title": "Lo Que Nos Distingue",
+      "integrityTitle": "Integridad Primero",
+      "integrityDesc": "Le damos consejos honestos, incluso cuando no es lo que desea escuchar. Su confianza a largo plazo es más importante que cualquier transacción individual.",
+      "localTitle": "Genuinamente Local",
+      "localDesc": "Nuestros agentes viven en los vecindarios a los que sirven. Ese conocimiento local se traduce en mejores ofertas y decisiones más inteligentes para usted.",
+      "resultsTitle": "Enfocado en Resultados",
+      "resultsDesc": "Medimos el éxito por su satisfacción. Nuestro historial de 98% de satisfacción del cliente habla por sí solo.",
+      "careTitle": "Atención Personal",
+      "careDesc": "Nunca es solo un número de archivo. Nos tomamos el tiempo para entender sus objetivos y adaptar nuestro enfoque a su situación única."
+    },
+    "stats": {
+      "sold": "Viviendas Vendidas",
+      "years": "Años en el Negocio",
+      "agents": "Agentes Expertos",
+      "satisfaction": "Satisfacción del Cliente"
+    },
+    "team": {
+      "badge": "Nuestro Equipo",
+      "title": "Las Personas Detrás de los Resultados",
+      "subtitle": "Experimentados, dedicados y genuinamente apasionados por ayudarte a encontrar el hogar perfecto.",
+      "listings": "Listados Activos",
+      "sold": "Casas Vendidas"
+    },
+    "cta": {
+      "title": "Encontremos Tu Próximo Hogar Juntos",
+      "subtitle": "Comunícate hoy para una consulta gratuita y sin compromiso con uno de nuestros agentes expertos.",
+      "button": "Ponte en Contacto",
+      "secondary": "Ver Listados"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Ponte en Contacto",
+      "title": "Nos Encantaría Saber de Ti",
+      "subtitle": "Ya sea que estés comprando, vendiendo o simplemente explorando, nuestro equipo está listo para ayudarte."
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Gracias! Nos pondremos en contacto dentro de un día hábil.",
+      "subjectOptions": {
+        "buying": "Estoy buscando comprar",
+        "selling": "Estoy buscando vender",
+        "renting": "Estoy buscando rentar",
+        "general": "Consulta general"
+      }
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "hours": "Horario de Oficina",
+      "hoursValue": "Lun–Vie: 9am–6pm, Sáb: 10am–4pm",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico"
+    },
+    "agents": {
+      "title": "Habla Directamente con un Agente",
+      "subtitle": "¿Prefieres conectar con un agente específico? Comunícate directamente con cualquier miembro de nuestro equipo."
+    }
+  }
+}
