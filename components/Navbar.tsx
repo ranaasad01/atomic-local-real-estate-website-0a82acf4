@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18 py-4">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 group">
+            <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
               <div className="w-8 h-8 rounded-full bg-[#c9a84c] flex items-center justify-center shadow-sm">
                 <span className="text-white font-bold text-sm font-serif">H</span>
               </div>
@@ -70,7 +70,7 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-1">
+            <nav className="hidden md:flex items-center gap-0.5">
               {navLinks.map((link) => {
                 const isActive =
                   link.href === "/"
@@ -81,7 +81,7 @@ export default function Navbar() {
                     key={link.href}
                     href={getHref(link.href)}
                     onClick={(e) => handleNavClick(e, link.href)}
-                    className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 group ${
+                    className={`relative px-3 py-2 text-xs font-medium rounded-lg transition-all duration-200 group whitespace-nowrap ${
                       scrolled
                         ? isActive
                           ? "text-[#c9a84c]"
@@ -95,7 +95,7 @@ export default function Navbar() {
                     {isActive && (
                       <motion.span
                         layoutId="nav-underline"
-                        className="absolute bottom-0 left-4 right-4 h-0.5 bg-[#c9a84c] rounded-full"
+                        className="absolute bottom-0 left-3 right-3 h-0.5 bg-[#c9a84c] rounded-full"
                       />
                     )}
                   </Link>
@@ -103,15 +103,15 @@ export default function Navbar() {
               })}
               <Link
                 href="/listings"
-                className="ml-3 px-5 py-2.5 bg-[#c9a84c] text-white text-sm font-semibold rounded-xl shadow-sm hover:bg-[#b8943e] transition-all duration-200 hover:shadow-md hover:-translate-y-0.5"
+                className="ml-2 px-4 py-2 bg-[#c9a84c] text-white text-xs font-semibold rounded-xl shadow-sm hover:bg-[#b8943e] transition-all duration-200 whitespace-nowrap flex-shrink-0"
               >
                 {t("nav.viewListings")}
               </Link>
             </nav>
 
-            {/* Mobile Toggle */}
+            {/* Mobile Menu Button */}
             <button
-              onClick={() => setMobileOpen(!mobileOpen)}
+              onClick={() => setMobileOpen((v) => !v)}
               className={`md:hidden p-2 rounded-lg transition-colors duration-200 ${
                 scrolled
                   ? "text-[#1a3c5e] hover:bg-[#1a3c5e]/5"
@@ -123,62 +123,49 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </motion.header>
 
-      {/* Mobile Menu */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2, ease: "easeOut" }}
-            className="fixed inset-x-0 top-[72px] z-40 bg-white/98 backdrop-blur-md border-b border-black/5 shadow-[0_8px_32px_-8px_rgba(0,0,0,0.12)] md:hidden"
-          >
-            <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
-              {navLinks.map((link, i) => {
-                const isActive =
-                  link.href === "/"
-                    ? pathname === "/"
-                    : pathname.startsWith(link.href);
-                return (
-                  <motion.div
-                    key={link.href}
-                    initial={{ opacity: 0, x: -12 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: i * 0.05, duration: 0.2 }}
-                  >
+        {/* Mobile Menu */}
+        <AnimatePresence>
+          {mobileOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+              className="md:hidden bg-white border-t border-black/5 shadow-lg overflow-hidden"
+            >
+              <nav className="px-4 py-4 flex flex-col gap-1">
+                {navLinks.map((link) => {
+                  const isActive =
+                    link.href === "/"
+                      ? pathname === "/"
+                      : pathname.startsWith(link.href);
+                  return (
                     <Link
+                      key={link.href}
                       href={getHref(link.href)}
                       onClick={(e) => handleNavClick(e, link.href)}
-                      className={`block px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 ${
+                      className={`px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 ${
                         isActive
                           ? "bg-[#1a3c5e]/5 text-[#c9a84c]"
-                          : "text-[#1a3c5e] hover:bg-[#1a3c5e]/5"
+                          : "text-[#1a3c5e] hover:bg-[#1a3c5e]/5 hover:text-[#c9a84c]"
                       }`}
                     >
                       {link.label}
                     </Link>
-                  </motion.div>
-                );
-              })}
-              <motion.div
-                initial={{ opacity: 0, x: -12 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: navLinks.length * 0.05, duration: 0.2 }}
-                className="pt-2"
-              >
+                  );
+                })}
                 <Link
                   href="/listings"
-                  className="block w-full text-center px-5 py-3 bg-[#c9a84c] text-white text-sm font-semibold rounded-xl hover:bg-[#b8943e] transition-colors duration-200"
+                  className="mt-2 px-4 py-3 bg-[#c9a84c] text-white text-sm font-semibold rounded-xl text-center hover:bg-[#b8943e] transition-all duration-200"
                 >
                   {t("nav.viewListings")}
                 </Link>
-              </motion.div>
-            </nav>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              </nav>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.header>
     </>
   );
 }
